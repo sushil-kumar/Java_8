@@ -45,9 +45,9 @@ public class Person {
         people.add(new Person("Mohan", 60, "M"));
         people.add(new Person("Sita", 26, "F"));
         people.add(new Person("Raju", 20, "M"));
-        people.add(new Person("Rita", 20, "F"));
-        people.add(new Person("Gita", 20, "F"));
-        people.add(new Person("Rohan", 20, "M"));
+        people.add(new Person("Rita", 45, "F"));
+        people.add(new Person("Gita", 28, "F"));
+        people.add(new Person("Rohan", 70, "M"));
         return people;
     }
 
