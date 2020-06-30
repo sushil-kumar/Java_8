@@ -1,0 +1,46 @@
+Topics
+
+Lambda Expression
+    Anonymous Function
+    Anonymous inner classes are created with earlier approach
+    Pure Function
+    Effectively Final
+    Predicate
+    Consumer
+    Producer
+    Function
+
+List
+    Iterating through a list
+    List operations in Java 8
+    Comparison using Comparator.comparing
+    Reverse Order
+
+Map
+    getOrDefault
+    computeIfAbsent
+
+Lombok
+    Getter
+    Setter
+    ToString
+    EqualsAndHashCode
+    Data
+    NoArgsConstructor
+    AllArgsConstructor
+    RequiredArgsConstructor
+
+Stream
+    Filter
+    Map
+    reduce
+    Terminal Operations (Lazy Evaluation)
+        allMatch - Do all elements in the stream meet this condition?
+        anyMatch - Is there any element that meet this condition?
+        noneMatch - Does no element meet this condition?
+        count
+        mapToInt -> Sum
+        Collect
+            toList, toSet
+            toMap, toLinkedHashMap
+

@@ -9,5 +9,12 @@ public class ReduceWithIdentity {
 
         // Sum of all the integers using reduce
         // Meaning of Identity value in reduce
+        int sum = list.stream()
+                        .reduce(
+                                0,
+                                (tempSum, number) -> tempSum + number,
+                                (sum1, sum2) -> sum1 + sum2
+                        );
+        System.out.println(sum);
     }
 }
